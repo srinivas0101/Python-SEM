@@ -1,0 +1,12 @@
+class Book:
+    def title(self,x):
+        print("Title: ",x)
+    def author(self,y):
+        print("Author: ",y)
+
+x=input()
+y=input()
+b1=Book()
+b1.title(x)
+b1.author(y)
+        
